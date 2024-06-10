@@ -1,0 +1,112 @@
+{
+    "name": "anti-glare-theme",
+    "displayName": "Anti-Glare Theme",
+    "description": "A Visual Studio Code theme for those of us who like to code late into the night. It was created by A. Z. M. Arif - azmarifdev",
+    "version": "1.0.6",
+    "publisher": "azmarifdev",
+    "icon": "images/anti-glare-icon.png",
+    "engines": {
+        "vscode": "^1.16.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "license": "SEE LICENSE IN LICENSE.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/azmarifdev/anti-glare-theme"
+    },
+    "scripts": {
+        "publish": "vsce publish"
+    },
+    "keywords": [
+        "Dark theme",
+        "night theme",
+        "vscode",
+        "azmarifdev",
+        "azmarif",
+        "antiGlare",
+        "anti glare",
+        "anti glare Theme",
+        "color theme",
+        "arif",
+        "a. z. m. arif",
+        "new theme",
+        "professional theme",
+        "best theme",
+        "moonlit theme",
+        "nebula theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Anti-Glare - Official",
+                "uiTheme": "vs-dark",
+                "path": "./themes/anti-glare-official.json"
+            },
+            {
+                "label": "Anti-Glare - Moonlit",
+                "uiTheme": "vs-dark",
+                "path": "./themes/anti-glare-moonlit.json"
+            },
+            {
+                "label": "Anti-Glare - Nebula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/anti-glare-nebula.json"
+            }
+        ],
+        "configurationDefaults": {
+            "editor.lineHeight": 2,
+            "editor.cursorBlinking": "expand",
+            "editor.cursorWidth": 2,
+            "editor.fontSize": 14.5,
+            "editor.hover.delay": 700,
+            "editor.linkedEditing": true,
+            "editor.snippetSuggestions": "top",
+            "editor.roundedSelection": true,
+            "editor.formatOnSave": true,
+            "editor.mouseWheelScrollSensitivity": 2,
+            "diffEditor.wordWrap": "on",
+            "diffEditor.ignoreTrimWhitespace": true,
+            "editor.suggestSelection": "first",
+            "editor.accessibilitySupport": "off",
+            "editor.find.addExtraSpaceOnTop": false,
+            "editor.fontLigatures": true,
+            "editor.find.cursorMoveOnType": true,
+            "editor.formatOnType": true,
+            "editor.formatOnPaste": true,
+            "editor.renderLineHighlight": "none",
+            "editor.scrollbar.verticalScrollbarSize": 8,
+            "editor.scrollbar.horizontalScrollbarSize": 8,
+            "editor.scrollbar.horizontal": "auto",
+            "editor.smoothScrolling": true,
+            "editor.scrollbar.scrollByPage": true,
+            "editor.foldingImportsByDefault": true,
+            "editor.minimap.renderCharacters": true,
+            "editor.minimap.maxColumn": 50,
+            "editor.minimap.showSlider": "always",
+            "editor.minimap.size": "fill",
+            "editor.cursorSmoothCaretAnimation": "on",
+            "editor.overviewRulerBorder": false,
+            "editor.hideCursorInOverviewRuler": true,
+            "editor.bracketPairColorization.enabled": true,
+            "editor.quickSuggestions": {
+                "comments": true,
+                "strings": true
+            },
+            "terminal.integrated.cursorWidth": 2,
+            "terminal.integrated.cursorStyle": "underline",
+            "terminal.integrated.cursorBlinking": true,
+            "terminal.integrated.lineHeight": 1.2,
+            "terminal.integrated.letterSpacing": 1,
+            "terminal.integrated.fontSize": 13,
+            "terminal.integrated.allowMnemonics": true,
+            "terminal.integrated.copyOnSelection": false,
+            "terminal.integrated.fastScrollSensitivity": 4,
+            "terminal.explorerKind": "both",
+            "terminal.integrated.enableMultiLinePasteWarning": "auto",
+            "terminal.integrated.enableVisualBell": true,
+            "terminal.sourceControlRepositoriesKind": "both"
+        }
+    }
+}
