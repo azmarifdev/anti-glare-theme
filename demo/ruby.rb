@@ -15,7 +15,6 @@ module ExampleModule
     def method_examples
       method_with_args(:arg)
       method_no_args
-      # method defined on base ruby object
       method(:array_access)
     end
 

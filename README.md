@@ -15,13 +15,13 @@ It might be the best choice for those who can't see the code editor in low light
 ## 🔸 Theme Screenshots
 
 ### 🔸 Anti-Glare - Official
+![Official](images/official.png)
 
-#
+### 🔸 Anti-Glare - Moonlit
+![Moonlit](images/moonlit.png)
 
-![Official](images/official/js-official.png)
-![Official](images/official/react-official.png)
-![Official](images/official/php-official.png)
-![Official](images/official/py-official.png)
+### 🔸 Anti-Glare - Nebula
+![Nebula](images/nebula.png)
 
 ## 🔸 Getting started
 

@@ -21,14 +21,7 @@ namespace NightOwl.demo
             string text = $"{TestProperty} this is a text string";
             int number = 1;
         }
-
         #endregion
-
-        /// <summary>
-        /// Hello this is an xml comment
-        /// </summary>
-        /// <param name="testParam">param comment</param>
-        /// <returns></returns>
         public async Task<string> TestMethod(string testParam)
         {
             for(var i = 0; i <= 5; i++)
