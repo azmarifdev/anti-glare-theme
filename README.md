@@ -114,6 +114,9 @@ I have included some required settings in this theme. Therefore, this theme will
     "editor.overviewRulerBorder": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.bracketPairColorization.enabled": true,
+    "editor.parameterHints.cycle": true,
+    "editor.parameterHints.enabled": true,
+    "editor.smoothScrolling": true,
     "editor.quickSuggestions": {
         "comments": true,
         "strings": true
@@ -130,7 +133,9 @@ I have included some required settings in this theme. Therefore, this theme will
     "terminal.explorerKind": "both",
     "terminal.integrated.enableMultiLinePasteWarning": "auto",
     "terminal.integrated.enableVisualBell": true,
-    "terminal.sourceControlRepositoriesKind": "both"
+    "terminal.sourceControlRepositoriesKind": "both",
+    "output.smartScroll.enabled": true,
+    "debug.console.fontSize": 13
 }
 ```
 </details>
