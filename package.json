@@ -2,7 +2,7 @@
     "name": "anti-glare-theme",
     "displayName": "Anti-Glare Theme",
     "description": "A Visual Studio Code theme for those of us who like to code late into the night. It was created by A. Z. M. Arif - azmarifdev",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "pricing": "Free",
     "publisher": "azmarifdev",
     "icon": "images/anti-glare-icon.png",
@@ -46,14 +46,29 @@
                 "path": "./themes/anti-glare-official.json"
             },
             {
+                "label": "Anti-Glare - Official - Italics",
+                "uiTheme": "vs-dark",
+                "path": "./themes/anti-glare-official-italics.json"
+            },
+            {
                 "label": "Anti-Glare - Moonlit",
                 "uiTheme": "vs-dark",
                 "path": "./themes/anti-glare-moonlit.json"
             },
             {
+                "label": "Anti-Glare - Moonlit - Italics",
+                "uiTheme": "vs-dark",
+                "path": "./themes/anti-glare-moonlit-italics.json"
+            },
+            {
                 "label": "Anti-Glare - Nebula",
                 "uiTheme": "vs-dark",
                 "path": "./themes/anti-glare-nebula.json"
+            },
+            {
+                "label": "Anti-Glare - Nebula - Italics",
+                "uiTheme": "vs-dark",
+                "path": "./themes/anti-glare-nebula-italics.json"
             }
         ],
         "configurationDefaults": {
