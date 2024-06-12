@@ -1,6 +1,6 @@
 # ✨ Anti-Glare Theme
 
-It might be the best choice for those who can't see the code editor in low light. It's tailored to the needs of those of us who love to code late into the night.
+It might be the best choice for those who can't see the code editor in <b>low light</b>. It's tailored to the needs of those of us who love to code late into the <b>night</b>.
 
 ## 🔸 Table of contents
 
@@ -10,18 +10,30 @@ It might be the best choice for those who can't see the code editor in low light
     -   [Installation](#installation)
 -   [Activate theme](#activate-theme)
 -   [Recommended settings](#recommended-settings-for-a-better-experience)
--   [Included settings](#Included-settings-for-a-better-experience)
+-   [Included settings](#included-settings-for-a-better-experience)
+-   [Additional Tips](#additional-tips)
+    - [ZSH Shell](#zsh-shell)
+    - [Starship](#starship)
 
 ## 🔸 Theme Screenshots
 
 ### 🔸 Anti-Glare - Official
-![Official](images/official.png)
+[![official.png](https://i.postimg.cc/Xv01YgYL/official.png)](https://postimg.cc/XrQk2dFB)
+
+### 🔸 Anti-Glare - Official - Italics
+[![official-italics.png](https://i.postimg.cc/NGW6tjM7/official-italics.png)](https://postimg.cc/BtBLcs2X)
 
 ### 🔸 Anti-Glare - Moonlit
-![Moonlit](images/moonlit.png)
+[![moonlit.png](https://i.postimg.cc/zfshrdDD/moonlit.png)](https://postimg.cc/mcSk3yFK)
+
+### 🔸 Anti-Glare - Moonlit - Italics
+[![moonlit-italics.png](https://i.postimg.cc/yNgR2qHr/moonlit-italics.png)](https://postimg.cc/67KTGmTd)
 
 ### 🔸 Anti-Glare - Nebula
-![Nebula](images/nebula.png)
+[![nebula.png](https://i.postimg.cc/BvkTvSp0/nebula.png)](https://postimg.cc/3yj4SHzS)
+
+### 🔸 Anti-Glare - Nebula - Italics
+[![nebula-italics.png](https://i.postimg.cc/ZRXVXP26/nebula-italics.png)](https://postimg.cc/MMb7QBWG)
 
 ## 🔸 Getting started
 
@@ -29,7 +41,7 @@ You can install this awesome theme through the [Visual Studio Code Marketplace](
 
 ### 🔸 Prerequisites
 
-This theme is compatible for VS Code version 1.16.0+
+This theme is compatible for VS Code version <b>1.16.0+</b> 
 
 ### 🔸 Installation
 
@@ -55,11 +67,12 @@ Launch _Quick Open_:
 -   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
 -   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
 
-Type `theme`, choose `Preferences: Color Theme`, and select _Anti-Glare Theme_ from the list. After activation, the theme will be activated.
+Type `theme`, choose `Preferences: Color Theme`, and select <b>  _Anti-Glare Theme_ </b> from the list. After activation, the theme will be activated.
 
 ## 🔸 Recommended settings for a better experience
 
-First, _Download_ and _Install_ Recommended fonts from here: [Click me](https://github.com/azmarifdev/vsfonts/).
+First, _Download_ and _Install_ Recommended fonts from here: <b>[Click me](https://github.com/azmarifdev/vsfonts/)</b>
+
 After that, add the following codes to the `settings.json`
 
 ```js
@@ -73,10 +86,10 @@ After that, add the following codes to the `settings.json`
 
 ## 🔸 Included settings for a better experience
 
-I have included some required settings in this theme. Therefore, this theme will be more suitable for night coding. Here are the settings.
+I have included some required settings in this theme. Therefore, this theme will be more suitable for <b>night coding</b>. Here are the settings.
 
 <details>
-  <summary><b>🔰 Expand me</b></summary>
+  <summary><b>🔴 Click me 🔰 </b></summary>
 
 ```js
 {
@@ -140,9 +153,40 @@ I have included some required settings in this theme. Therefore, this theme will
 ```
 </details>
 
+## 🔸 Additional Tips
+
+### 💠 ZSH Shell
+
+If you want to use a powerful shell, you can use <b>ZSH</b>. It has some notable feature.
+
+🔆 <b>Example:</b>
+- Enhanced Functionality
+- Programmable Completion
+- Themed Prompts
+- Extended File Globbing
+- Improved Variable Handling
+- Multi-line Editing
+- Spelling Correction and Autofill
+
+So, if you want to use <b>ZSH</b> you can follow my GitHub gist. <b>[ZSH Gist](https://gist.github.com/azmarifdev/9c16c5a33e93aee05b35147fe7da1015)</b>
+
 #
 
-🌟 BTW, If you want to know about me then go here: [azmarif.dev](https://azmarif.dev/)
+### 💠 <b>Starship</b>
+<b>Starship</b> is a modern and feature-rich prompt designed for various shells, including Zsh, Bash, and Fish. It goes beyond a simple command line prompt by offering. It has some notable feature.
+
+🔆 <b>Example:</b>
+- Sleek and Customizable Appearance
+- Blazing Fast Performance
+- Cross-Shell Compatibility
+- Contextual Information at a Glance
+- Feature-rich and Intelligent
+
+So, So, if you want to use <b>Starship</b> you can follow my GitHub gist. <b>[Starship Gist](https://gist.github.com/azmarifdev/b74f508c07d0af6f4edbbb6e480b53c1) </b>
+
+#
+
+🌟 BTW, If you want to know about me then go here: <b>[azmarif.dev](https://azmarif.dev/)</b>
 
 ---
 
