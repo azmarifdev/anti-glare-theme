@@ -467,8 +467,8 @@
         "statusBarItem.activeBackground": "#FFFFFF25",
         "settings.headerForeground": "#d6deeb",
         "settings.focusedRowBackground": "#ffffff07",
-        "walkThrough.embeddedEditorBackground": "#00000050",
         "breadcrumb.activeSelectionForeground": "#b1e2ff",
+        "walkThrough.embeddedEditorBackground": "#00000050",
         "editorGutter.commentRangeForeground": "#c5c5c5",
         "debugExceptionWidget.background": "#131d30",
         "debugExceptionWidget.border": "#44acf295"
