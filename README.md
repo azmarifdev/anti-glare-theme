@@ -162,7 +162,7 @@ If you want to use a powerful shell, you can use <b>ZSH</b>. It has some notable
 - Multi-line Editing
 - Spelling Correction and Autofill
 
-So, if you want to use <b>ZSH</b> you can follow my GitHub gist. <b>[ZSH Gist](https://gist.github.com/azmarifdev/9c16c5a33e93aee05b35147fe7da1015)</b>
+So, if you want to install <b>ZSH</b> you can follow my GitHub gist. <b>[ZSH Gist](https://gist.github.com/azmarifdev/9c16c5a33e93aee05b35147fe7da1015)</b>
 
 #
 
@@ -176,7 +176,7 @@ So, if you want to use <b>ZSH</b> you can follow my GitHub gist. <b>[ZSH Gist](h
 - Contextual Information at a Glance
 - Feature-rich and Intelligent
 
-So, So, if you want to use <b>Starship</b> you can follow my GitHub gist. <b>[Starship Gist](https://gist.github.com/azmarifdev/b74f508c07d0af6f4edbbb6e480b53c1) </b>
+So, if you want to install <b>Starship</b> you can follow my GitHub gist. <b>[Starship Gist](https://gist.github.com/azmarifdev/b74f508c07d0af6f4edbbb6e480b53c1) </b>
 
 #
 
