@@ -2,7 +2,7 @@
     "name": "anti-glare-theme",
     "displayName": "Anti-Glare Theme",
     "description": "A Visual Studio Code theme for those of us who like to code late into the night. It was created by A. Z. M. Arif - azmarifdev",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "pricing": "Free",
     "publisher": "azmarifdev",
     "icon": "images/anti-glare-icon.png",
@@ -21,20 +21,20 @@
         "publish": "vsce publish"
     },
     "keywords": [
+        "anti glare Theme",
+        "moonlit theme",
+        "nebula theme",
+        "antiGlare",
         "Dark theme",
         "night theme",
-        "vscode",
-        "azmarifdev",
-        "azmarif",
-        "antiGlare",
-        "anti glare Theme",
         "color theme",
-        "a. z. m. arif",
         "new theme",
-        "professional theme",
         "best theme",
-        "moonlit theme",
-        "nebula theme"
+        "professional theme",
+        "vscode theme",
+        "azmarif",
+        "azmarifdev",
+        "A. Z. M. Arif"
     ],
     "contributes": {
         "themes": [
@@ -104,6 +104,8 @@
             "editor.bracketPairColorization.enabled": true,
             "editor.parameterHints.cycle": true,
             "editor.parameterHints.enabled": true,
+            "output.smartScroll.enabled": true,
+            "debug.console.fontSize": 13,
             "terminal.integrated.cursorWidth": 2,
             "terminal.integrated.cursorStyle": "underline",
             "terminal.integrated.cursorBlinking": true,
@@ -117,8 +119,9 @@
             "terminal.integrated.enableMultiLinePasteWarning": "auto",
             "terminal.integrated.enableVisualBell": true,
             "terminal.sourceControlRepositoriesKind": "both",
-            "output.smartScroll.enabled": true,
-            "debug.console.fontSize": 13
+            "accessibility.signals.terminalBell": {
+                "sound": "off"
+            }
         }
     }
 }
