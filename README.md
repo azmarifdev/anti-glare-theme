@@ -133,7 +133,6 @@ I have included some required settings in this theme. Therefore, this theme will
     "editor.bracketPairColorization.enabled": true,
     "editor.parameterHints.cycle": true,
     "editor.parameterHints.enabled": true,
-    "editor.smoothScrolling": true,
     "output.smartScroll.enabled": true,
     "debug.console.fontSize": 13,
     "terminal.integrated.cursorWidth": 2,
