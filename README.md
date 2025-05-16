@@ -1,103 +1,157 @@
 # ✨ Anti-Glare Theme
 
-It might be the best choice for those who can't see the code editor in <b>low light</b>. It's tailored to the needs of those of us who love to code late into the <b>night</b>.
+## A Professional VS Code Theme for Low-Light Environments
 
-## 🔸 Table of contents
+[![Version](https://img.shields.io/badge/version-1.5.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
+[![Installs](https://img.shields.io/visual-studio-marketplace/i/azmarifdev.anti-glare-theme)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
+[![Ratings](https://img.shields.io/visual-studio-marketplace/r/azmarifdev.anti-glare-theme?cacheSeconds=60)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
+[![GitHub](https://img.shields.io/github/license/azmarifdev/anti-glare-theme)](https://github.com/azmarifdev/anti-glare-theme/blob/main/LICENSE.md)
 
--   [Theme Screenshots](#theme-screenshots)
--   [Getting started](#getting-started)
-    -   [Prerequisites](#prerequisites)
-    -   [Installation](#installation)
--   [Activate theme](#activate-theme)
--   [Recommended settings](#recommended-settings-for-a-better-experience)
--   [Included settings](#included-settings-for-a-better-experience)
--   [Additional Tips](#additional-tips)
-    -   [ZSH Shell](#zsh-shell)
-    -   [Starship](#starship)
+Anti-Glare is a professionally designed theme optimized for developers who code in <b>low-light environments</b>. Meticulously crafted to reduce eye strain during <b>night-time coding sessions</b>, this theme offers optimal contrast and carefully selected color palettes to enhance readability while maintaining a comfortable visual experience.
 
-## 🔸 Theme Screenshots
+## 🔸 Table of Contents
 
-### 🔸 Anti-Glare - Official
+-   [Features](#features)
+-   [Theme Variants](#theme-variants)
+-   [Installation](#installation)
+-   [Activation](#activation)
+-   [Recommended Configuration](#recommended-configuration)
+-   [Included Settings](#included-settings)
+-   [Productivity Enhancements](#productivity-enhancements)
+    -   [ZSH Shell Integration](#zsh-shell-integration)
+    -   [Starship Terminal Prompt](#starship-terminal-prompt)
+-   [Release Notes](#release-notes)
+-   [Feedback & Contributions](#feedback--contributions)
+-   [License](#license)
 
-[![official.png](https://i.postimg.cc/Xv01YgYL/official.png)](https://postimg.cc/XrQk2dFB)
+## 🔸 Features
 
-### 🔸 Anti-Glare - Official - Italics
+-   **Eye Comfort**: Designed specifically to reduce eye strain in low-light environments
+-   **Multiple Variants**: Choose from three distinct theme styles with optional italics support
+-   **Optimized Contrast**: Carefully balanced color schemes for readability without harshness
+-   **Syntax Highlighting**: Enhanced syntax coloring for improved code comprehension
+-   **UI Consistency**: Harmonious integration with VS Code's interface elements
+-   **Productivity Settings**: Includes optimized editor configurations for efficient coding
 
-[![official-italics.png](https://i.postimg.cc/NGW6tjM7/official-italics.png)](https://postimg.cc/BtBLcs2X)
+## 🔸 Theme Variants
 
-### 🔸 Anti-Glare - Moonlit
+Anti-Glare Theme offers six different variants to match your personal preferences and coding style:
 
-[![moonlit.png](https://i.postimg.cc/zfshrdDD/moonlit.png)](https://postimg.cc/mcSk3yFK)
+### Anti-Glare Official
 
-### 🔸 Anti-Glare - Moonlit - Italics
+Our flagship theme with a perfect balance of contrast and color harmony.
 
-[![moonlit-italics.png](https://i.postimg.cc/yNgR2qHr/moonlit-italics.png)](https://postimg.cc/67KTGmTd)
+[![Official](https://i.postimg.cc/Xv01YgYL/official.png)](https://postimg.cc/XrQk2dFB)
 
-### 🔸 Anti-Glare - Nebula
+### Anti-Glare Official Italics
 
-[![nebula.png](https://i.postimg.cc/BvkTvSp0/nebula.png)](https://postimg.cc/3yj4SHzS)
+The same balanced color scheme with added italics for comments and keywords.
 
-### 🔸 Anti-Glare - Nebula - Italics
+[![Official Italics](https://i.postimg.cc/NGW6tjM7/official-italics.png)](https://postimg.cc/BtBLcs2X)
 
-[![nebula-italics.png](https://i.postimg.cc/ZRXVXP26/nebula-italics.png)](https://postimg.cc/MMb7QBWG)
+### Anti-Glare Moonlit
 
-## 🔸 Getting started
+A softer variant with blue undertones for a more calming late-night experience.
 
-You can install this awesome theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme).
+[![Moonlit](https://i.postimg.cc/zfshrdDD/moonlit.png)](https://postimg.cc/mcSk3yFK)
 
-### 🔸 Prerequisites
+### Anti-Glare Moonlit Italics
 
-This theme is compatible for VS Code version <b>1.16.0+</b>
+The Moonlit variant with elegant italics for enhanced code expression.
 
-### 🔸 Installation
+[![Moonlit Italics](https://i.postimg.cc/yNgR2qHr/moonlit-italics.png)](https://postimg.cc/67KTGmTd)
 
-Launch _Quick Open_:
+### Anti-Glare Nebula
 
--   <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl+P`
--   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘P`
--   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl+P`
+A rich color scheme inspired by cosmic nebulae for a unique coding atmosphere.
 
-Paste the following command and press `Enter`:
+[![Nebula](https://i.postimg.cc/BvkTvSp0/nebula.png)](https://postimg.cc/3yj4SHzS)
+
+### Anti-Glare Nebula Italics
+
+The Nebula variant with stylistic italics for additional code differentiation.
+
+[![Nebula Italics](https://i.postimg.cc/ZRXVXP26/nebula-italics.png)](https://postimg.cc/MMb7QBWG)
+
+## 🔸 Installation
+
+You can install the Anti-Glare Theme through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme).
+
+### Prerequisites
+
+-   Visual Studio Code (version 1.16.0 or higher)
+
+### Installation Methods
+
+#### Via VS Code Marketplace
+
+1. Open VS Code
+2. Navigate to Extensions view by clicking the Extensions icon in the Activity Bar or pressing:
+    - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux: `Ctrl+Shift+X`
+    - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS: `⌘+Shift+X`
+    - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows: `Ctrl+Shift+X`
+3. Search for `Anti-Glare Theme`
+4. Click **Install**
+
+#### Via Quick Open
+
+1. Launch Quick Open:
+    - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux: `Ctrl+P`
+    - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS: `⌘P`
+    - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows: `Ctrl+P`
+2. Paste the following command and press `Enter`:
 
 ```shell
-ext install anti-glare-theme
+ext install azmarifdev.anti-glare-theme
 ```
 
-And pick the one by **A. Z. M. Arif** as author.
+## 🔸 Activation
 
-## 🔸 Activate theme
+1. Launch Command Palette:
+    - <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> Linux: `Ctrl+Shift+P`
+    - <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> macOS: `⌘+Shift+P`
+    - <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> Windows: `Ctrl+Shift+P`
+2. Type `Color Theme` and select `Preferences: Color Theme`
+3. Select one of the Anti-Glare variants from the dropdown menu:
+    - Anti-Glare - Official
+    - Anti-Glare - Official - Italics
+    - Anti-Glare - Moonlit
+    - Anti-Glare - Moonlit - Italics
+    - Anti-Glare - Nebula
+    - Anti-Glare - Nebula - Italics
 
-Launch _Quick Open_:
+## 🔸 Recommended Configuration
 
--   <img src="https://www.kernel.org/theme/images/logos/favicon.png" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf">Linux</a> `Ctrl + Shift + P`
--   <img src="https://developer.apple.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf">macOS</a> `⌘ + Shift + P`
--   <img src="https://www.microsoft.com/favicon.ico" width=16 height=16/> <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf">Windows</a> `Ctrl + Shift + P`
+To enhance your experience with Anti-Glare Theme, we recommend using these optimized font settings.
 
-Type `theme`, choose `Preferences: Color Theme`, and select <b> _Anti-Glare Theme_ </b> from the list. After activation, the theme will be activated.
+### Font Installation
 
-## 🔸 Recommended settings for a better experience
+Download and install our recommended fonts for the best visual experience:
 
-First, _Download_ and _Install_ Recommended fonts from here: <b>[Click me](https://github.com/azmarifdev/vsfonts/)</b>
+-   [Download VS Code Optimized Fonts](https://github.com/azmarifdev/vsfonts/)
 
-After that, add the following codes to the `settings.json`
+### Editor Configuration
 
-```js
+Add the following settings to your `settings.json` file:
+
+```json
 {
-    // Controls the editor font family.
+    // Use a programming font with ligatures for code
     "editor.fontFamily": "Operator-Caska",
-    // Controls the terminal font family.
+
+    // Use a nerd font for the terminal to support icons and special characters
     "terminal.fontFamily": "CaskaydiaCove Nerd Font Mono"
 }
 ```
 
-## 🔸 Included settings for a better experience
+## 🔸 Included Settings
 
-I have included some required settings in this theme. Therefore, this theme will be more suitable for <b>night coding</b>. Here are the settings.
+Anti-Glare Theme comes with carefully configured editor settings optimized for night-time coding sessions and productivity. These settings are automatically applied when you use the theme:
 
 <details>
-  <summary><b>🔴 Click me 🔰 </b></summary>
+  <summary><b>🔹 Click to View Included Settings</b></summary>
 
-```js
+```json
 {
     "editor.lineHeight": 2,
     "editor.cursorBlinking": "expand",
@@ -156,45 +210,71 @@ I have included some required settings in this theme. Therefore, this theme will
 
 </details>
 
-## 🔸 Additional Tips
+## 🔸 Productivity Enhancements
 
-### 💠 ZSH Shell
+Enhance your development environment with these complementary tools that work perfectly with Anti-Glare Theme.
 
-If you want to use a powerful shell, you can use <b>ZSH</b>. It has some notable feature.
+### ZSH Shell Integration
 
-🔆 <b>Example:</b>
+Boost your terminal productivity with ZSH's powerful features:
 
--   Enhanced Functionality
--   Programmable Completion
--   Themed Prompts
--   Extended File Globbing
--   Improved Variable Handling
--   Multi-line Editing
--   Spelling Correction and Autofill
+-   **Enhanced Tab Completion**: Context-aware suggestions
+-   **Improved History Management**: Smart search through command history
+-   **Advanced Globbing**: Powerful file pattern matching
+-   **Spelling Correction**: Automatic correction of mistyped commands
+-   **Theming Support**: Customizable prompt styles that complement Anti-Glare
 
-So, if you want to install <b>ZSH</b> you can follow my GitHub gist. <b>[ZSH Gist](https://gist.github.com/azmarifdev/9c16c5a33e93aee05b35147fe7da1015)</b>
+[Installation Guide for ZSH Configuration](https://gist.github.com/azmarifdev/9c16c5a33e93aee05b35147fe7da1015)
 
-#
+### Starship Terminal Prompt
 
-### 💠 <b>Starship</b>
+Enhance your terminal experience with Starship's modern, informative prompt:
 
-<b>Starship</b> is a modern and feature-rich prompt designed for various shells, including Zsh, Bash, and Fish. It goes beyond a simple command line prompt by offering. It has some notable feature.
+-   **Context-Aware Information**: See relevant details based on your current directory
+-   **Git Integration**: Instant visual feedback on repository status
+-   **Performance Optimized**: Lightning fast even in large repositories
+-   **Cross-Shell Compatibility**: Works across Bash, ZSH, and Fish
+-   **Visual Harmony**: Clean design that pairs perfectly with Anti-Glare Theme
 
-🔆 <b>Example:</b>
+[Installation Guide for Starship](https://gist.github.com/azmarifdev/b74f508c07d0af6f4edbbb6e480b53c1)
 
--   Sleek and Customizable Appearance
--   Blazing Fast Performance
--   Cross-Shell Compatibility
--   Contextual Information at a Glance
--   Feature-rich and Intelligent
+## 🔸 Release Notes
 
-So, if you want to install <b>Starship</b> you can follow my GitHub gist. <b>[Starship Gist](https://gist.github.com/azmarifdev/b74f508c07d0af6f4edbbb6e480b53c1) </b>
+See our [CHANGELOG.md](https://github.com/azmarifdev/anti-glare-theme/blob/main/CHANGELOG.md) for detailed information about each release.
 
-#
+### Latest Updates (v1.5.0)
 
-🌟 BTW, If you want to know about me or contact me, go here:
+-   Added improved syntax highlighting for TypeScript and React
+-   Enhanced terminal color scheme for better readability
+-   Fixed contrast issues in the activity bar and status bar
+-   Optimized editor configurations for reduced eye strain
 
-[![Website](https://img.shields.io/badge/Website-6D4AFF?logo=Write.as&logoColor=white)](https://azmarif.dev/) [![Email](https://img.shields.io/badge/Email-EA4335?logo=Gmail&logoColor=white)](mailto:contact@azmarif.dev) [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/PM8SWkRBBn) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/azmarifdev) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/azmarifdev) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/azmarifdev) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://www.youtube.com/@azmarifdev)
+## 🔸 Feedback & Contributions
 
-#
-<p align="center">Copyright &copy; 2024 - A. Z. M. Arif</p>
+Your feedback helps make Anti-Glare Theme better! If you encounter issues or have suggestions:
+
+-   [Report a bug](https://github.com/azmarifdev/anti-glare-theme/issues)
+-   [Request a feature](https://github.com/azmarifdev/anti-glare-theme/issues)
+-   [Submit a pull request](https://github.com/azmarifdev/anti-glare-theme/pulls)
+
+## 🔸 License
+
+This theme is released under the [MIT License](https://github.com/azmarifdev/anti-glare-theme/blob/main/LICENSE.md).
+
+---
+
+<div align="center">
+
+### Connect with the Developer
+
+[![Website](https://img.shields.io/badge/Website-6D4AFF?logo=write.as&logoColor=white&style=flat-square)](https://azmarif.dev/)
+[![Email](https://img.shields.io/badge/Email-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:contact@azmarif.dev)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white&style=flat-square)](https://discord.gg/PM8SWkRBBn)
+[![X](https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=flat-square)](https://x.com/azmarifdev)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white&style=flat-square)](https://facebook.com/azmarifdev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat-square)](https://linkedin.com/in/azmarifdev)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=flat-square)](https://www.youtube.com/@azmarifdev)
+
+**Anti-Glare Theme** © 2023-2025 by [A. Z. M. Arif](https://azmarif.dev). All Rights Reserved.
+
+</div>
