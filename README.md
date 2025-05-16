@@ -2,7 +2,7 @@
 
 ## A Professional VS Code Theme for Low-Light Environments
 
-[![Version](https://img.shields.io/badge/version-1.5.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
+[![Version](https://img.shields.io/badge/version-1.7.0-blue.svg)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
 [![Installs](https://img.shields.io/visual-studio-marketplace/i/azmarifdev.anti-glare-theme)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
 [![Ratings](https://img.shields.io/visual-studio-marketplace/r/azmarifdev.anti-glare-theme?cacheSeconds=60)](https://marketplace.visualstudio.com/items?itemName=azmarifdev.anti-glare-theme)
 [![GitHub](https://img.shields.io/github/license/azmarifdev/anti-glare-theme)](https://github.com/azmarifdev/anti-glare-theme/blob/main/LICENSE.md)
@@ -242,7 +242,7 @@ Enhance your terminal experience with Starship's modern, informative prompt:
 
 See our [CHANGELOG.md](https://github.com/azmarifdev/anti-glare-theme/blob/main/CHANGELOG.md) for detailed information about each release.
 
-### Latest Updates (v1.5.0)
+### Latest Updates (v1.7.0)
 
 -   Added improved syntax highlighting for TypeScript and React
 -   Enhanced terminal color scheme for better readability
